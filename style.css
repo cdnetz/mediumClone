@@ -1,0 +1,56 @@
+* {
+	border: 1px solid red;
+}
+
+body, html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.header{
+	width: 100%;
+	height: 75px;
+	background: rgba(255, 255, 255, 0.9);
+	position: absolute;
+}
+
+
+.centertexttop{
+	text-align: center;
+	width: 33%;
+	color: #aaa;
+	text-transform: uppercase;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	letter-spacing: 2px;
+	font-size: 10px;
+
+}
+
+.centertextbottom{
+	font-size: 14px;
+	letter-spacing: 4px;
+	color: #676767;
+}
+
+@media screen and (max-width: 600px){
+	.centertexttop{
+		display: none;
+	}
+}
+
+.main img {
+	width: 100%;
+	height: 30%;
+}
+
+.logo{
+	float: left;
+	margin: 20px 0px 0px 15px;
+	color: #333;
+
+}
+
