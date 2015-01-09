@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<div class="header">
-	<div class="centertexttop">
-		published in
-			<div class="centertextbottom">
-				react tutorials
-			</div>
-	</div>
-</div>
-<div class="main">
-	<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*bs9PbxDndAW7mmqve3EQ-w.jpeg">
-</div>
-</body>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="header">
+            <div class="rightheader">	
+            	<i class="fa fa-search fa-1x"></i> 
+                <div class="login">Sign in / Sign up</div>
+            </div>
+            <div class="logo">M</div>
+            <div class="centertexttop">published in
+                <div class="centertextbottom">react tutorials</div>
+            </div>
+        </div>
+        <div class="main">
+            <img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*bs9PbxDndAW7mmqve3EQ-w.jpeg">
+        </div>
+        <div class="maincontainer">
+            	<h1>React Components</h1>
+
+            <p>Components are the smallest, yet most fundamental part of React. They’re similar, in concepts, to things like widgets and modules. React defines itself as a library for building user interfaces. As such, when you think of a user interface you want to build (with React), you need to think of it in terms of the smallest possible components that you can define.</p>
+            <p>These components include code which defines how DOM elements are created and how users can interact with them. Components can be defined purely in JavaScript or they can be defined in a superset (or extended variation) of JavaScript called JSX. If you decide to use JSX for your component definitions, you may also need a compiler application, but we’ll get to that in a minute.</p>
+            <div class="comments">
+                <p>We’re going to be referring to pure JavaScript as JS and the React version of JavaScript as JSX.</p>
+                <p>You can find the accompanying source-code, for this tutorial, at: https://github.com/formativ/tutorial-react-components.</p>
+                <p>Please post any errors you find, or questions you have as comments on this article or as issues on GitHub.</p>
+                <p>Thanks to Pete Hunt for helping to improve this!</p>
+            </div>
+            <div class="codingcontainer">
+                </a>/**
+                <br>* @jsx React.DOM
+                <br>*/
+                <br>
+                <br>var HelloWorld = React.createClass({
+                <br>render&nbsp;: function() {
+                <br>return &lt;div&gt;hello world!&lt;/div&gt;;
+                <br>}
+                <br>});
+                <br>
+                <br>React.renderComponent(
+                <br>&lt;HelloWorld /&gt;,
+                <br>document.body
+                <br>);</pre>
+                </p>
+            </div>
+        </div>
+        <div class="subfooter">
+        	<div class="recommend">recommend</div>
+            <div class="subfootericons">
+                <div class="bookmark">	<i class="fa fa-bookmark-o fa-2x"></i>
+
+                </div>
+                <div class="share">	<i class="fa fa-sort-asc fa-2x"></i>
+
+                </div>
+                <div class="arrow">	<i class="fa fa-angle-down fa-2x"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="uppertextinfooter">	<strong>READ NEXT</strong> FROM YOUR READING LIST</div>
+            <div class="lowertextinfooter">
+                <p>	<strong>React State</strong>
+
+                </p>
+                <p>Last time we looked at how to use properties, to affect the initial rendering of components.</p>
+            </div>
+        </div>
+    </body>
+
 </html>
