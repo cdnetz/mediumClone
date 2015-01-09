@@ -1,6 +1,6 @@
-* {
+/** {
     border: 1px solid red;
-}
+}*/
 body, html {
     height: 100%;
     width: 100%;
@@ -106,6 +106,7 @@ h1 {
     width: 65%;
     height: 350px;
     margin: 30px auto;
+
 }
 .subfootericons {
     border-bottom: 1px solid #C6C6C6;
@@ -143,6 +144,8 @@ h1 {
     width: 100%;
     margin-top: 70px;
     background: #FAFAFA;
+    margin-left: auto;
+    margin-right: auto;
 }
 .uppertextinfooter {
     width: 65%;
@@ -169,5 +172,15 @@ h1 {
     }
     h1 {
         font-size: 30px;
+    }
+    .footer, .uppertextinfooter, .lowertextinfooter{
+    	width: 90%;
+    	margin-left: 15px;
+        margin-right: 10px;
+        padding-right: 0px;
+        
+    }
+    .subfooter{
+    	width: 90%;
     }
 }
